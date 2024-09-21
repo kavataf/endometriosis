@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a donation to The Endometriosis Foundation</title>
+    <!-- styles -->
+     <link href="donate.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+     <!-- Font Awesome CSS -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+     <link rel="shortcut icon" href="img/donate.png">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header id="header" class="no-shadow hideInIframe">
+                <div class="text-center">
+                    <a class="skip-main" href="#main" tabindex="1">Skip header navigation</a>
+                </div>
+                <div class="container">
+                    <div class="header-holder clearfix">
+                        <div class="header-area">
+                            <div class="logo-area">
+                                <div class="logo-holder">
+                                    <strong class="logo">
+                                        <span>
+                                            <img src="img/TEFlogopI2444640$8DBB36E83A2E6CD.png" alt="The Endometriosis Foundation" width="128" height="94">
+                                        </span>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="header-box">
+                            <div class="user-info-section" ng-controller="UserInfoCtrl" ng-style="{display: userInfo &amp;&amp; !userInfo.isGuest ? '' : 'none'}" style="display: none;">
+                                Logged in as Faith | <a href="javascript:void(0)" ng-click="LogOut()">Not you? Log Out</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </header>
+            <div class="step-panel">
+                <div class="container">
+                    <ul>
+                        <li><span class="badge badge-pill" data-step="1">1</span>Select</li>
+                        <li><span class="badge badge-pill" data-step="2">2</span>Details</li>
+                        <li><span class="badge badge-pill" data-step="3">3</span>Message</li>
+                        <li><span class="badge badge-pill" data-step="4">4</span>Gift Aid</li>
+                        <li><span class="badge badge-pill" data-step="5">5</span>Pay</li>
+                        <li><span class="badge badge-pill" data-step="6">6</span>Complete</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="body-box">
+            <div class="main">
+                <h1>Make a donation to The Endometriosis Foundation</h1>
+                <p>We trust Enthuse to handle the processing of our online payments. 
+                    You will see their name mentioned on this form and in the address bar.
+                </p>
+             <div class="cards">
+                <!-- Select form -->
+                <div class="card" id="select" data-step="1">
+                    <div class="d-sm-flex align-items-center justify-content-between mb-0">
+                        <h2 class="after-lock">How often would you like to give?</h2>
+                        <!-- <i class="fa-solid fa-lock"></i> -->
+                    </div>
+                    <form>
+                        <select class="option">
+                            <option>One-off</option>
+                            <option>Monthly</option>
+                        </select>
+                        <h6>Now choose how much.</h6>
+                        
+                        <ul class="buttons">
+                            <li><a href="#" data-amount="5">$5 One-off</a></li>
+                            <li><a href="#" data-amount="15">$15 One-off</a></li>
+                            <li><a href="#" data-amount="50">$50 One-off</a></li>
+                        </ul>
+                        <input type="text" placeholder="Or enter how much" id="custom-amount">
+                        <div class="form-field" style="display: none;">
+                            <!-- <span class="plan-list-currency">£</span> -->
+                                <input aria-label="Enter how much" inputmode="decimal" type="text" placeholder="Enter how much"
+                                 class="ng-valid ng-touched ng-dirty ng-valid-parse ng-empty" style="width: 323.34px;"
+                                 id="custom-amount">
+                            <span class="variable-option-date">Monthly</span>
+                        </div>
+                        
+                        <span class="one-off">One-off</span>
+
+                        <div class="any">
+                        <input type="checkbox" name="check">
+                        <label for="check">I would like to remain anonymous</label>
+                        </div>
+
+                        <select-tipping tips-inited="tipsInited" tips-model="tipsModel" is-available-for-step="true" style="display: none;">
+                            <div class="lc-ent68-container">
+                              <div class="lc-ent68-info">
+                                <div class="lc-ent68-info__header">🧡 Your generosity can help more than just us</div>
+                                <div class="lc-ent68-info__body">Thanks for adding your tip that helps cover our charity technology costs and means we can help more people.</div>
+                              </div>
+                              <div class="lc-ent68-options">
+                                <div style="--lc-buttons-amount: 5;" class="lc-ent68-options__buttons">
+                              <div class="lc-ent68-options__button" data-lc-value="0.5">
+                                <b data-lc-amount="0.5">£0.50</b>
+                              </div>
+                            
+                              <div class="lc-ent68-options__button lc-ent68-options__button-selected" data-lc-value="1">
+                                <b data-lc-amount="1">£1.00</b>
+                              
+                            <div class="lc-ent68-options__button-badge">Recommended</div>
+                          </div>
+                            
+                              <div class="lc-ent68-options__button" data-lc-value="1.5">
+                                <b data-lc-amount="1.5">£1.50</b>
+                              </div>
+                            
+                              <div class="lc-ent68-options__button" data-lc-value="2">
+                                <b data-lc-amount="2">£2.00</b>
+                              </div>
+                            
+                              <div class="lc-ent68-options__button" data-lc-value="2.5">
+                                <b data-lc-amount="2.5">£2.50</b>
+                              </div>
+                            </div>
+                            <div class="lc-ent68-options__other">other amount</div>
+                            <div class="lc-ent68-input-other lc-ent68-hidden">
+                                <div class="value-container">
+                                    <span class="value-container-sign">£</span>
+                                    <input pattern="[0-9.,]" inputmode="decimal" type="text" 
+                                    placeholder="0.00" class="lc-ent68-options__button-selected">
+                                </div>
+                            </div>
+                              
+                            <div class="lc-ent68-sp">
+                              <div class="lc-ent68-sp-contents-wrapper">
+                                <div class="lc-ent68-sp-copy">
+                                    <b>77% of donors</b> have helped keep Enthuse <b>free for our charity in the last 24 hours</b>.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                            </div>
+                </select-tipping>
+
+                <div class="total-amount">
+                    Total Amount: <span id="total-amount-display">$0.00</span>
+                </div>
+
+                <button type="button" onclick="nextStep()" class="submit">Next</button>
+                    </form>
+                </div>
+
+                <!-- Details form -->
+                <div class="card" id="details" data-step="2">
+                    <form id="donation-form">
+                        <div id="initial-fields">
+                            <div class="email">
+                                <label for="email">Email address</label>
+                                <input type="email" id="email" placeholder="e.g. jsmith@myemail.com" style="width: 399.33px;">
+                                <span class="error" id="email-error" style="display: none;">Please enter your email</span>
+                            </div>
+                            <!-- <div class="login">
+                                <p>Donated with Enthuse before? </p>
+                                <a href="#">log in</a>
+                            </div>
+                            
+                            <div class="socials">
+                                <span class="text">
+                                    <span class="line"></span>
+                                    <p>or continue with</p>
+                                    <span class="line" style="width: 35%;"></span>
+                                </span>
+                                <div class="btns">
+                                    <button type="button">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-brands fa-twitter" style="color: #1da1f2;"></i>
+                                        <span>Twitter</span>
+                                    </button>
+                                    <button type="button">
+                                        <img src="img/google-small.svg" alt="google logo">
+                                        <span>Google</span>
+                                    </button>
+                                </div>
+                            </div> -->
+                            <button type="button" id="show-details-btn" onclick="showDetails()" class="submit">Next</button>
+                        </div>
+
+                        <!-- Hidden form fields -->
+                        <div id="additional-fields" style="display: none;">
+                            <div class="simple-divider"></div>
+                            <h2 class="js-title-label">Complete your details to make a donation</h2>
+                            <div class="f-row f-row-half">
+                                <label for="title-select-m">Title</label>
+                                <input id="title-select-m" type="text" name="title" aria-label="Title" placeholder="e.g. Mr or Ms" maxlength="12" style="width: 300px;">
+                                <span class="error" id="title-error" style="display: none;">Please enter a title</span>
+                            </div>
+                            <div class="form-block">
+                                <div class="input-row">
+                                    <div class="input-column input-column-50">
+                                        <label for="first-name">First name</label>
+                                        <input id="first-name" type="text" name="first-name" aria-label="First name" placeholder="First name" maxlength="50" style="width: 320px;">
+                                        <span class="error" id="first-name-error" style="display: none;">Please enter your first name</span>
+                                    </div>
+                                    <div class="input-column input-column-50">
+                                        <label for="last-name">Last name</label>
+                                        <input id="last-name" type="text" name="last-name" aria-label="Last name" maxlength="50" placeholder="Last name" style="width: 320px;">
+                                        <span class="error" id="last-name-error" style="display: none;">Please enter your last name</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="f-row">
+                                <label for="country-select">Where do you live?</label>
+                                <div class="select-style country-select mobile-select">
+                                        <select id="country-select" class="ng-pristine ng-untouched ng-valid ng-not-empty" style="width: 818.67px;">
+                                            <option label="Afghanistan" value="string:AF">Afghanistan</option><option label="Albania" value="string:AL">Albania</option><option label="Algeria" value="string:DZ">Algeria</option><option label="Andorra" value="string:AD">Andorra</option><option label="Angola" value="string:AO">Angola</option><option label="Argentina" value="string:AR">Argentina</option><option label="Aruba" value="string:AW">Aruba</option><option label="Australia" value="string:AU">Australia</option><option label="Austria" value="string:AT">Austria</option><option label="Bahamas" value="string:BS">Bahamas</option><option label="Bahrain" value="string:BH">Bahrain</option><option label="Bangladesh" value="string:BD">Bangladesh</option><option label="Barbados" value="string:BB">Barbados</option><option label="Belarus" value="string:BY">Belarus</option><option label="Belgium" value="string:BE">Belgium</option><option label="Belize" value="string:BZ">Belize</option><option label="Bermuda" value="string:BM">Bermuda</option><option label="Bolivia" value="string:BO">Bolivia</option><option label="Bosnia and Herzegovina" value="string:BA">Bosnia and Herzegovina</option><option label="Botswana" value="string:BW">Botswana</option><option label="Brazil" value="string:BR">Brazil</option><option label="Brunei" value="string:BN">Brunei</option><option label="Bulgaria" value="string:BG">Bulgaria</option><option label="Burkina Faso" value="string:BF">Burkina Faso</option><option label="Burma" value="string:BU">Burma</option><option label="Burundi" value="string:BI">Burundi</option><option label="Cambodia" value="string:KH">Cambodia</option><option label="Cameroon" value="string:CM">Cameroon</option><option label="Canada" value="string:CA">Canada</option><option label="Cape Verde" value="string:CV">Cape Verde</option><option label="Cayman Islands" value="string:KY">Cayman Islands</option><option label="Central African Republic" value="string:CF">Central African Republic</option><option label="Chad" value="string:TD">Chad</option><option label="Chile" value="string:CL">Chile</option><option label="China" value="string:CN">China</option><option label="Colombia" value="string:CO">Colombia</option><option label="Comoros" value="string:KM">Comoros</option><option label="Congo" value="string:CG">Congo</option><option label="Congo" value="string:CD">Congo</option><option label="Costa Rica" value="string:CR">Costa Rica</option><option label="Croatia" value="string:HR">Croatia</option><option label="Cuba" value="string:CU">Cuba</option><option label="Cyprus" value="string:CY">Cyprus</option><option label="Czech Republic" value="string:CZ">Czech Republic</option><option label="Denmark" value="string:DK">Denmark</option><option label="Djibouti" value="string:DJ">Djibouti</option><option label="Dominica" value="string:DM">Dominica</option><option label="Dominican Republic" value="string:DO">Dominican Republic</option><option label="East Timor" value="string:TL">East Timor</option><option label="Ecuador" value="string:EC">Ecuador</option><option label="Egypt" value="string:EG">Egypt</option><option label="El Salvador" value="string:SV">El Salvador</option><option label="Equatorial Guinea" value="string:GQ">Equatorial Guinea</option><option label="Estonia" value="string:EE">Estonia</option><option label="Ethiopia" value="string:ET">Ethiopia</option><option label="Falkland Islands" value="string:FK">Falkland Islands</option><option label="Fiji" value="string:FJ">Fiji</option><option label="Finland" value="string:FI">Finland</option><option label="France" value="string:FR">France</option><option label="French Polynesia" value="string:PF">French Polynesia</option><option label="Gabon" value="string:GA">Gabon</option><option label="Gambia" value="string:GM">Gambia</option><option label="Georgia" value="string:GE">Georgia</option><option label="Germany" value="string:DE">Germany</option><option label="Ghana" value="string:GH">Ghana</option><option label="Gibraltar" value="string:GI">Gibraltar</option><option label="Greece" value="string:GR">Greece</option><option label="Guatemala" value="string:GT">Guatemala</option><option label="Guernsey" value="string:GG">Guernsey</option><option label="Guinea" value="string:GN">Guinea</option><option label="Guinea Bissau" value="string:GW">Guinea Bissau</option><option label="Guyana" value="string:GY">Guyana</option><option label="Haiti" value="string:HT">Haiti</option><option label="Honduras" value="string:HN">Honduras</option><option label="Hong Kong" value="string:HK">Hong Kong</option><option label="Hungary" value="string:HU">Hungary</option><option label="Iceland" value="string:IS">Iceland</option><option label="India" value="string:IN">India</option><option label="Indonesia" value="string:ID">Indonesia</option><option label="Iran" value="string:IR">Iran</option><option label="Iraq" value="string:IQ">Iraq</option><option label="Ireland" value="string:IE">Ireland</option><option label="Isle of Man" value="string:IM">Isle of Man</option><option label="Israel" value="string:IL">Israel</option><option label="Italy" value="string:IT">Italy</option><option label="Ivory Coast" value="string:CI">Ivory Coast</option><option label="Jamaica" value="string:JM">Jamaica</option><option label="Japan" value="string:JP">Japan</option><option label="Jersey" value="string:JE">Jersey</option><option label="Jordan" value="string:JO">Jordan</option><option label="Kazakhstan" value="string:KZ">Kazakhstan</option><option label="Kenya" value="string:KE">Kenya</option><option label="Kosovo" value="string:XK">Kosovo</option><option label="Kuwait" value="string:KW">Kuwait</option><option label="Kyrgyzstan" value="string:KG">Kyrgyzstan</option><option label="Lao Peoples" value="string:LA">Lao Peoples</option><option label="Latvia" value="string:LV">Latvia</option><option label="Lebanon" value="string:LB">Lebanon</option><option label="Lesotho" value="string:LS">Lesotho</option><option label="Liberia" value="string:LR">Liberia</option><option label="Libya" value="string:LY">Libya</option><option label="Liechtenstein" value="string:LI">Liechtenstein</option><option label="Lithuania" value="string:LT">Lithuania</option><option label="Luxembourg" value="string:LU">Luxembourg</option><option label="Macau" value="string:MO">Macau</option><option label="Macedonia" value="string:MK">Macedonia</option><option label="Madagascar" value="string:MG">Madagascar</option><option label="Malawi" value="string:MW">Malawi</option><option label="Malaysia" value="string:MY">Malaysia</option><option label="Maldives" value="string:MV">Maldives</option><option label="Mali" value="string:ML">Mali</option><option label="Malta" value="string:MT">Malta</option><option label="Mauritania" value="string:MR">Mauritania</option><option label="Mauritius" value="string:MU">Mauritius</option><option label="Mexico" value="string:MX">Mexico</option><option label="Monaco" value="string:MC">Monaco</option><option label="Mongolia" value="string:MN">Mongolia</option><option label="Morocco" value="string:MA">Morocco</option><option label="Mozambique" value="string:MZ">Mozambique</option><option label="Myanmar" value="string:MM">Myanmar</option><option label="Namibia" value="string:NA">Namibia</option><option label="Nepal" value="string:NP">Nepal</option><option label="Netherland Antilles" value="string:AN">Netherland Antilles</option><option label="Netherlands" value="string:NL">Netherlands</option><option label="New Zealand" value="string:NZ">New Zealand</option><option label="Nicaragua" value="string:NI">Nicaragua</option><option label="Nigeria" value="string:NG">Nigeria</option><option label="North Korea" value="string:KP">North Korea</option><option label="Norway" value="string:NO">Norway</option><option label="Oman" value="string:OM">Oman</option><option label="Pakistan" value="string:PK">Pakistan</option><option label="Panama" value="string:PA">Panama</option><option label="Papua New Guinea" value="string:PG">Papua New Guinea</option><option label="Paraguay" value="string:PY">Paraguay</option><option label="Peru" value="string:PE">Peru</option><option label="Philippines" value="string:PH">Philippines</option><option label="Poland" value="string:PL">Poland</option><option label="Portugal" value="string:PT">Portugal</option><option label="Puerto Rico" value="string:PR">Puerto Rico</option><option label="Qatar" value="string:QA">Qatar</option><option label="Republic of Moldova" value="string:MD">Republic of Moldova</option><option label="Romania" value="string:RO">Romania</option><option label="Russian Federation" value="string:RU">Russian Federation</option><option label="Rwanda" value="string:RW">Rwanda</option><option label="Samoa" value="string:WS">Samoa</option><option label="Sao Tome and Principe" value="string:ST">Sao Tome and Principe</option><option label="Saudi Arabia" value="string:SA">Saudi Arabia</option><option label="Senegal" value="string:SN">Senegal</option><option label="Serbia" value="string:RS">Serbia</option><option label="Seychelles" value="string:SC">Seychelles</option><option label="Sierra Leone" value="string:SL">Sierra Leone</option><option label="Singapore" value="string:SG">Singapore</option><option label="Slovakia" value="string:SK">Slovakia</option><option label="Slovenia" value="string:SI">Slovenia</option><option label="Soloman Islands" value="string:SB">Soloman Islands</option><option label="Somalia" value="string:SO">Somalia</option><option label="South Africa" value="string:ZA">South Africa</option><option label="South Korea" value="string:KR">South Korea</option><option label="Spain" value="string:ES">Spain</option><option label="Sri Lanka" value="string:LK">Sri Lanka</option><option label="St Helena" value="string:SH">St Helena</option><option label="Sudan" value="string:SD">Sudan</option><option label="Suriname" value="string:SR">Suriname</option><option label="Swaziland" value="string:SZ">Swaziland</option><option label="Sweden" value="string:SE">Sweden</option><option label="Switzerland" value="string:CH">Switzerland</option><option label="Syria" value="string:SY">Syria</option><option label="Taiwan" value="string:TW">Taiwan</option><option label="Tajikistan" value="string:TJ">Tajikistan</option><option label="Tanzania" value="string:TZ">Tanzania</option><option label="Thailand" value="string:TH">Thailand</option><option label="Tonga" value="string:TO">Tonga</option><option label="Trinidad and Tobago" value="string:TT">Trinidad and Tobago</option><option label="Tunisia" value="string:TN">Tunisia</option><option label="Turkey" value="string:TR">Turkey</option><option label="Uganda" value="string:UG">Uganda</option><option label="Ukraine" value="string:UA">Ukraine</option><option label="United Arab Emirates" value="string:AE">United Arab Emirates</option><option label="United Kingdom" value="string:GB" selected="selected">United Kingdom</option><option label="United States of America" value="string:US">United States of America</option><option label="Uruguay" value="string:UY">Uruguay</option><option label="Vanuatu" value="string:VU">Vanuatu</option><option label="Venezuela" value="string:VE">Venezuela</option><option label="Vietnam" value="string:VN">Vietnam</option><option label="Yemen" value="string:YE">Yemen</option><option label="Zambia" value="string:ZM">Zambia</option><option label="Zimbabwe" value="string:ZW">Zimbabwe</option></select>
+                                </div>
+                            </div>
+                            <div class="f-row">
+                                <label for="addr">Find your address</label>
+                                <input id="addr" class="js-addr-input ut-address-input pac-target-input" type="text" name="address" placeholder="Start typing your address" aria-label="address" autocomplete="off" style="width: 818.67px;">
+                            </div>
+                            <!-- <div class="center-box center-box-custom">
+                                <p>
+                                    <a href="modal.html" onclick="enterAddressManually()">Enter address manually</a>
+                                </p>
+                            </div> -->
+                            <div class="f-row">
+                                <label for="address-field">Review your address</label>
+                                <div class="form-field form-field-custom f-custom">
+                                    <input class="edit-field ut-address-box" id="address-field" aria-label="Review your address" type="text" disabled value="GB" style="width: 818.67px;">
+                                    <!-- <span class="link-edit" onclick="editAddress()"><em class="fa-regular fa-pen-to-square fa-lg" aria-hidden="true"></em> Edit</span> -->
+                                </div>
+                                <span class="error ut-address-error" id="address-error" style="display: none;">The address is not properly specified. Click Edit to fix it.</span>
+                            </div>
+                            <div class="f-row f-row-half">
+                                <label for="tel-field">Phone number (optional)</label>
+                                <input id="tel-field" type="tel" style="width: 399.33px;" aria-label="Phone number (optional)" maxlength="23">
+                            </div>
+                            <div class="agree-box js-agree-error">
+                                <div class="custom-checkbox large">
+                                    <input type="checkbox" id="agree-check" aria-label="I have read and agree to the Enthuse" class="ng-pristine ng-untouched ng-valid ng-empty">
+                                    <label for="agree-check">
+                                        I have read and agree to the Enthuse <a href="https://www.enthuse.com/legal/" target="_blank">terms & conditions</a>, 
+                                        <a href="https://www.enthuse.com/privacy/" target="_blank">privacy policy</a> and understand that the charities I donate to may receive my contact details.
+                                    </label>
+                                </div>
+                                <span class="error" id="agree-error" style="display: none;">Please agree to the terms and conditions</span>
+                            </div>
+                            <button type="button" id="proceed-btn" onclick="validateAndProceed()" class="submit">Next</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+                <!-- message form -->
+                <div class="card" id="message" data-step="3">
+                    <form>
+                        <div class="msg">
+                            <label for="msg">Your message</label>
+                            <textarea placeholder="What's your message of support (optional)"></textarea>
+                        </div>
+                    
+                        <button type="button" onclick="nextStep()" class="submit">Next</button>
+                    </form>
+                </div>
+
+                <!-- gift aid form -->
+                <div class="card" id="gift" data-step="4">
+                    <form>
+                        <div class="details">
+                            <p>Please check the details of your donation</p>
+                            <a href="donate.html">Change donation</a>
+                        </div>
+                        <span class="stmt">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p>Please take a payment of 
+                                <strong id="amount">$0</strong> from my account for 
+                                <strong>The Endometriosis Foundation.</strong></p>
+                        </span>
+                        
+                        <button type="button" onclick="nextStep()" class="submit">Next</button>
+                    </form>
+                </div>
+
+                <!-- pay form -->
+                <div class="card" id="pay" data-step="5">
+                    <form id="payment-form">
+                        <div id="dropin-container"></div>
+                        <input type="hidden" id="payment-method-nonce">
+                        <input type="hidden" id="payment-amount" value="0">
+                        <input type="submit" value="Make a Payment" class="btn btn-primary" id="submit">
+                    </form>
+                </div>
+             </div>
+
+            </div>
+        </div>
+
+                <!-- footer -->
+                <footer id="footer" class="clearfix" aria-role="contentinfo" aria-label="page footer">
+                    <div class="container clearfix">
+                        <ul class="footer-menu">
+                            <li><a id="a-privacy-policy" href="https://www.enthuse.com/privacy/" target="_blank">Privacy Policy</a></li>
+                            <li><a id="a-terms-and-conditions" href="https://www.enthuse.com/legal/" target="_blank">Terms and Conditions</a></li>
+                            <li><a id="a-help-and-support" href="https://www.enthuse.com/support/" target="_blank">Help and support</a></li>
+                        </ul>
+                        <div class="footer-box">
+                            Powered by <a href="https://www.enthuse.com" target="_blank">
+                                <img src="img/ent-logo.svg" alt="https://www.enthuse.com">
+                            </a>
+                        </div>
+                    </div>
+        
+                </footer>
+    </div>
+
+    <!-- Modal HTML -->
+<div class="modal fade" id="paymentStatusModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Payment Status</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="sticky-footer"></div>
+    <script src="donate.js"></script>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Braintree JavaScript SDK -->
+    <script src="https://js.braintreegateway.com/web/dropin/1.33.5/js/dropin.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- smtp.js -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+    <!-- Card processing payment -->
+    <script>
+        $(document).ready(function () {
+            $.get('/client-token', function (clientToken) {
+                braintree.dropin.create({
+                authorization: clientToken,
+                container: '#dropin-container'
+                }, function (createErr, instance) {
+                if (createErr) {
+                    console.error('Create Error', createErr);
+                    return;
+                }
+
+                $('#payment-form').on('submit', function (event) {
+                    event.preventDefault();
+
+                    instance.requestPaymentMethod(function (err, payload) {
+                    if (err) {
+                        console.error('Request Payment Method Error', err);
+                        return;
+                    }
+
+                    console.log('Payment method nonce:', payload.nonce); // Log the payment method nonce
+
+                    $.ajax({
+                        type: 'POST',
+                        url: '/process-payment',
+                        data: JSON.stringify({
+                        paymentMethodNonce: payload.nonce,
+                        amount: '10.00' // Example amount
+                        }),
+                        contentType: 'application/json',
+                        success: function (response) {
+                        if (response.success) {
+                            alert('Payment successful!');
+                        } else {
+                            alert('Payment failed: ' + response.message + ' (Code: ' + response.processorResponseCode + ')');
+                        }
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                        console.error('Payment request failed:', textStatus, errorThrown);
+                        alert('Payment failed: ' + jqXHR.responseJSON.message + ' (Code: ' + jqXHR.responseJSON.processorResponseCode + ')');
+                        }
+                    });
+                    });
+                });
+                });
+            });
+        });
+    </script>
+
+      
+
+</body>
+</html>

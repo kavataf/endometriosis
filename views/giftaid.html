@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a donation to The Endometriosis Foundation</title>
+    <!-- styles -->
+     <link href="donate.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Font Awesome CSS -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+     <link rel="shortcut icon" href="/favicon.png">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header id="header" class="no-shadow hideInIframe">
+                <div class="text-center">
+                    <a class="skip-main" href="#main" tabindex="1">Skip header navigation</a>
+                </div>
+                <div class="container">
+                    <div class="header-holder clearfix">
+                        <div class="header-area">
+                            <div class="logo-area">
+                                <div class="logo-holder">
+                                    <strong class="logo">
+                                        <span>
+                                            <img src="/views/img/TEFlogopI2444640$8DBB36E83A2E6CD.png" alt="The Endometriosis Foundation" width="128" height="94">
+                                        </span>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="header-box">
+                            <div class="user-info-section" ng-controller="UserInfoCtrl" ng-style="{display: userInfo &amp;&amp; !userInfo.isGuest ? '' : 'none'}" style="display: none;">
+                                Logged in as Faith | <a href="javascript:void(0)" ng-click="LogOut()">Not you? Log Out</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </header>
+            <div class="step-panel">
+                <div class="container">
+                    <ul>
+                        <li><span class="badge badge-pill">1</span>Select</li>
+                        <li><span class="badge badge-pill">2</span>Details</li>
+                        <li><span class="badge badge-pill">3</span>Message</li>
+                        <li><span class="badge badge-pill">4</span>Gift Aid</li>
+                        <li><span class="badge badge-pill">5</span>Pay</li>
+                        <li><span class="badge badge-pill">6</span>Complete</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="body-box">
+            <div class="main">
+                <h1>Make a donation to The Endometriosis Foundation</h1>
+                <p>We trust Enthuse to handle the processing of our online payments. 
+                    You will see their name mentioned on this form and in the address bar.
+                </p>
+
+
+                <!-- gift aid form -->
+                <div class="card" id="gift">
+                    <form>
+                        <div class="details">
+                            <p>Please check the details of your donation</p>
+                            <a href="#">Change donation</a>
+                        </div>
+                        <span class="stmt">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p>Please take a payment of 
+                                <strong id="amount">$6</strong> from my account for 
+                                <strong>The Endometriosis Foundation.</strong></p>
+                        </span>
+                        <div class="box">
+                            <div class="gift-row">
+                                <div class="gift-row-text">
+                                    <p class="title">Add Gift Aid and boost your donation at no extra cost</p>
+                                    <div class="gift-info">
+                                        <div class="gift-info-cell">
+                                            <strong class="gift-info-title"><span class="gift-info-currency">£</span>15</strong>
+                                            <span class="gift-info-subtitle">Your donation</span>
+                                        </div>
+                                        <div class="gift-info-cell gift-info-divider">&nbsp;</div>
+                                        <div class="gift-info-cell">
+                                            <strong class="gift-info-title"><span class="gift-info-currency">£</span>18.75</strong>
+                                            <span class="gift-info-subtitle">With Gift Aid</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gift-row-image">
+                                    <img src="/views/img/gift-aid-logo.svg" alt="giftaid it" width="156" height="56">
+                                </div>
+                            </div>
+                            <p class="text">
+                                I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax in the current tax year than the amount of Gift Aid claimed on all my donations, it is my responsibility to pay any difference. <br>
+                                <a href="https://www.gov.uk/donating-to-charity/gift-aid#1" rel="noopener" target="_blank">Find  out more about Gift Aid.</a>
+                            </p>
+                            <ul class="radio-list-custom">
+                                <li>
+                                    <input type="radio" id="gift-aid-yes" class="checklist" name="263" value="true">
+                                    <label for="gift-aid-yes"><strong>Yes, please Gift Aid this donation</strong></label>
+                                    <div class="block-bg">
+                                        <p class="custom-text">Please read and confirm the following statements:</p>
+                                        <div class="bordered-box-inner">
+                                            <span class="error"></span>
+                                        </div>
+                                        <ul class="bordered-box-inner">
+                                            <li>
+                                                <div class="custom-checkbox large">
+                                                    <input type="checkbox" id="own-money" class="checkbox">
+                                                    <label for="own-money">This is my own money. I am not paying in donations made by a third party, e.g. money collected at an event, the pub, a company donation or a donation from a friend or family member.</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="custom-checkbox large">
+                                                    <input type="checkbox" id="not-lottery" class="empty">
+                                                    <label for="not-lottery">This donation is not made as part of a sweepstake, raffle or lottery and I am not receiving anything in return of it, e.g. book, auction prize, ticket to an event.</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="gift-aid" id="gift-aid-no" class="checklist" value="false">
+                                    <label for="gift-aid-no"><strong>No, please do not Gift Aid this donation</strong></label>
+                                </li>
+                            </ul>
+                        </div>
+                        <input type="submit" value="Next">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+                <!-- footer -->
+                <!-- <footer id="footer" class="clearfix" aria-role="contentinfo" aria-label="page footer">
+                    <div class="container clearfix">
+                        <ul class="footer-menu">
+                            <li><a id="a-privacy-policy" href="https://www.enthuse.com/privacy/" target="_blank">Privacy Policy</a></li>
+                            <li><a id="a-terms-and-conditions" href="https://www.enthuse.com/legal/" target="_blank">Terms and Conditions</a></li>
+                            <li><a id="a-help-and-support" href="https://www.enthuse.com/support/" target="_blank">Help and support</a></li>
+                        </ul>
+                        <div class="footer-box">
+                            Powered by <a href="https://www.enthuse.com" target="_blank">
+                                <img src="/views/img/ent-logo.svg" alt="https://www.enthuse.com">
+                            </a>
+                        </div>
+                    </div>
+        
+                </footer> -->
+    </div>
+    
+</body>
+</html>
